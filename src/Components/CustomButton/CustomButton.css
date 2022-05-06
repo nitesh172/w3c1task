@@ -1,0 +1,18 @@
+.Button {
+  width: 100%;
+  padding: 0.9rem 0 0.9rem 0;
+  font-size: 0.9rem;
+  border-radius: 1.5rem;
+  color: var(--color-white);
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  font-family: poppins, sans-serif;
+  background-color: var(--color-blue);
+}
+
+.Button:active {
+    background-color: var(--color-secondary);
+    color: var(--color-grey);
+    transition: all 25ms ease-in;
+}

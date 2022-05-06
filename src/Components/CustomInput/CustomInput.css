@@ -1,0 +1,46 @@
+.customInput {
+  border-radius: 0.8rem;
+  margin: 1rem 0 1rem 0;
+  display: flex;
+  align-items: center;
+  border: 0.1rem solid var(--color-secondary);
+  font-family: poppins, sans-serif;
+  background-color: var(--color-secondary);
+}
+
+.input {
+  background-color: transparent;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+  color: var(--color-white);
+  padding: 0.9rem 0 0.9rem 0.9rem;
+  width: 100%;
+}
+
+.customInput:focus-within,
+.customInput:hover {
+  border: 0.1rem solid var(--color-blue);
+}
+
+.input::placeholder {
+  color: var(--color-grey);
+  font-family: poppins, sans-serif;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.smallWidth {
+  width: 50%;
+}
+
+.normalWidth {
+  width: 80%;
+}
+
+.icon {
+  margin-right: 0.8rem;
+  color: var(--color-grey);
+}
