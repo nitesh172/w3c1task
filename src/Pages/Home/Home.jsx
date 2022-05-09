@@ -17,7 +17,7 @@ const Home = () => {
     <div className="loginContainer">
       <div>
         <div className="heading">
-          {cookies.user.name}
+          {cookies?.user?.name}
           <span className="dot">.</span>
         </div>
       </div>
