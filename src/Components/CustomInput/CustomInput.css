@@ -2,10 +2,19 @@
   border-radius: 0.8rem;
   margin: 1rem 0 1rem 0;
   display: flex;
+  min-width: 3rem;
   align-items: center;
   border: 0.1rem solid var(--color-secondary);
   font-family: poppins, sans-serif;
   background-color: var(--color-secondary);
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
 }
 
 .input {

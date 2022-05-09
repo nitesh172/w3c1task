@@ -1,7 +1,7 @@
 import React from "react";
 import "./CustomInput.css";
 
-const CustomInput = ({ size, placeholder, type, icon, onChange }) => {
+const CustomInput = ({ size, placeholder, type, icon, onChange, textalign , maxLength, minLength, refernce, onKeyPress}) => {
   return (
     <div
       className={`customInput ${
@@ -12,7 +12,7 @@ const CustomInput = ({ size, placeholder, type, icon, onChange }) => {
           : "fullWidth"
       }`}
     >
-      <input type={type} className="input" placeholder={placeholder} onChange={onChange}/>
+      <input type={type} className={`input ${textalign}`} autoComplete="off" onKeyPress={onKeyPress} ref={refernce} placeholder={placeholder} onChange={onChange} maxLength={maxLength} minLength={minLength} />
       <span className="material-symbols-rounded icon">{icon}</span>
     </div>
   );
